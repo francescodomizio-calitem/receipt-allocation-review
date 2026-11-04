@@ -6,6 +6,15 @@ Una recepción puede aparecer en varias facturas. Esta plantilla suma las cantid
 
 Recurso de Francesco Domizio, fundador de Calitem. Todos los ejemplos son inventados. Preparado con asistencia de IA y revisión de casos sintéticos.
 
+## Dos formatos / Two formats
+
+- **Excel:** descarga el archivo de arriba y ábrelo en una aplicación compatible con BUSCARX/XLOOKUP. Excel de escritorio no se probó por separado.
+- **Google Sheets:** [abre la edición pública de solo lectura](https://docs.google.com/spreadsheets/d/1uluuYLthRvtK7nTa-tDrHwK24ebaJbvmg6uFpKhZzPk/edit?usp=drivesdk). **Crea primero una copia privada en tu propio Drive** y comprueba sus permisos antes de introducir datos reales. Google aloja esta edición y tus copias; las indicaciones de archivo local se refieren al XLSX descargado. No escribas datos propios en la plantilla pública.
+
+Las dos ediciones comprueban las mismas asignaciones y tienen la misma capacidad fija. La edición nativa de Google Sheets se comprobó con 21 casos sintéticos, 139 resultados esperados y 1.192 comprobaciones de entradas. No amplíes filas ni rangos sin volver a verificar las fórmulas.
+
+**English:** download the XLSX above, or open the read-only Google Sheets edition. **Make a private copy in your own Drive first**, then check its sharing settings before entering real data. Google hosts the online edition and your copies; local-file guidance applies to the downloaded XLSX. The native edition passed the same 21 synthetic cases, with 139 expected results and 1,192 input checks. Both editions retain the fixed capacity described below. Desktop Excel was not separately tested.
+
 ## Español
 
 1. Sustituye los ejemplos en las celdas ámbar. Conserva las columnas de cálculo grises.
