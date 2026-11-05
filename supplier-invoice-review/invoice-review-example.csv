@@ -1,0 +1,4 @@
+supplier_reference,invoice_reference,invoice_line_reference,purchase_order_reference,order_line_reference,item_reference,unit,currency,ordered_quantity,received_quantity,invoiced_quantity,agreed_net_unit_price,invoiced_net_unit_price,expected_net_amount,invoiced_net_amount,net_price_variance,quantity_variance,review_status,review_owner,evidence_reference,resolution,resolution_date
+DEMO_SUPPLIER,DEMO_INV_001,1,DEMO_PO_001,1,DEMO_ITEM_A,EA,EUR,10,10,10,12,13,120,130,10,0,Price difference requires review,Unassigned,DEMO_PO_001 line1 and DEMO_RECEIPT_001,,
+DEMO_SUPPLIER,DEMO_INV_002,1,DEMO_PO_002,1,DEMO_ITEM_B,EA,EUR,20,8,10,5,5,50,50,0,2,Invoiced quantity exceeds received quantity,Unassigned,DEMO_PO_002 line1 and DEMO_RECEIPT_002,,
+DEMO_SUPPLIER,DEMO_INV_003,1,DEMO_PO_003,1,DEMO_ITEM_C,EA,EUR,5,,5,20,20,100,100,0,,Receiving evidence missing,Unassigned,DEMO_PO_003 line1; receipt not available,,
